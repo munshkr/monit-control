@@ -1,6 +1,7 @@
 # Monit::Control
 
-TODO: Write a gem description
+A Ruby DSL for generating Monit control files, with Rake and Capistrano tasks
+for managing a Monit daemon and its services.
 
 ## Installation
 

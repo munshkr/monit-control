@@ -8,9 +8,11 @@ Gem::Specification.new do |spec|
   spec.version       = Monit::Control::VERSION
   spec.authors       = ["Damián Silvani"]
   spec.email         = ["munshkr@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{Ruby DSL for generating Monit control files and tasks for management.}
+  spec.summary       = %q{A Ruby DSL for generating Monit control files,
+                          with Rake and Capistrano tasks for managing a Monit
+                          daemon and its services.}
+  spec.homepage      = "https://github.com/munshkr/monit-control"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
